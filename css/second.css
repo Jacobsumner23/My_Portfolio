@@ -1,0 +1,110 @@
+html{
+    background-image: url(../images/large.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
+header{
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 2px 2px purple;
+    font-style: italic;
+    font-weight: 600;
+    font-size: xx-large;
+    margin-right: 100px;
+    text-decoration:underline;
+    }
+
+
+p{text-align: justify;
+    color: whitesmoke;
+    text-shadow: 1.5px 1.5px black;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-left: 10px;
+    width:90%;
+} 
+h1{
+    color: whitesmoke;
+    text-align: center;
+    border-style:groove;
+    border-radius: 10px;
+    background-color: purple;
+    text-shadow: 1.5px 1px black;
+}
+h2{
+    color: whitesmoke;
+    text-align: justify;
+    text-shadow: 2px 2px purple;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 15px;
+    }
+h3{
+    color: whitesmoke;
+    text-align: center;
+    text-shadow: 2px 2px purple;
+    font-style: italic;
+    font-weight: bold;
+}    
+footer{
+    text-align: justify;
+    font-size: larger;
+    font-weight: 500;
+    color: whitesmoke;
+    text-decoration: underline;
+    text-shadow: 1.5px 1.5px purple;
+    margin-left: 15px;
+}
+.nav {
+    height: 100%;
+    width: 120px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    background-color:purple;
+    border-style: groove;
+}
+.nav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }      
+      
+.nav a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+.content {
+    margin-right: 120px;
+    padding-right: 20px;
+  }
+
+.left{
+    float: left;
+    width: 48%;
+    padding: 10px;}
+
+.right {
+    float: left;
+    width: 48%;
+    padding: 10px;}
+.profile{
+    width: 49%;
+    float:left;
+}
+
+.info{ 
+    margin-top: 35px; 
+    float:right;
+    width:49%;
+    color: whitesmoke;
+    text-shadow: 1.5px 1.5px black;
+    font-size: large;
+    }
+ul, li{
+    list-style-type: none;
+}
+    
